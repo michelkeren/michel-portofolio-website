@@ -1,0 +1,84 @@
+body {
+    background-color: #7AB2D3;
+}
+header{
+    width: 95%;
+    border: 1px solid #b77e34;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+header img{
+    width: 25%;
+    border: 3px solid rgb(212, 0, 255);
+    border-radius: 25%;
+}
+header img:hover{
+    transform: scale(1.25);
+    transition: all.3s ease-in-out;
+}
+header h1 {
+    color: #0584ec;
+}
+
+p {
+    color: #6f5262;
+    font-style: italic;
+}
+img {
+    width: 40%;
+    border: 3px solid #FFF7D1;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 6px 25px;
+    background-color: #e0fef2;
+    border: none;
+    border-radius: 15px 0 15px 0;
+    color: #A9B388;
+}
+button:hover{
+    transform: scale(1.5);
+    transition: all .3s ease-in-out;
+}
+.about{
+    width: 95%;
+    border: 1px solid #3E5879;
+    margin: 30px auto;
+    padding: 30px;
+    display: flex;
+}
+.left-about img{
+    width: 85%;
+    border-radius: 12px;
+}
+.right-about h2{
+    color: #FEF9E1;
+    font-size: 200%;
+}
+.right-about p{
+    color: #809D3C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 145%;
+    margin: 30px auto;
+}
+#products {
+    width: 95%;
+    margin: 40px, auto;
+    text-align: center;
+}
+#products h2 {
+    color: 'cari di color hunt';
+}
+.prodcuts-card {
+    padding: 20px;
+    border: 1px, dashed;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    width: 350px;
+    border: 1px, solid, 'cari di color hunt buat warna';
+}
